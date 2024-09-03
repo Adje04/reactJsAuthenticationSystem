@@ -1,0 +1,9 @@
+.alert {
+    
+    width: fit-content;
+    background-color: rgba(255, 38, 0, 0.288);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
