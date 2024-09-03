@@ -1,14 +1,12 @@
 import React from 'react'
 import './Button.css'
 
-export default function Button({ text, onClick, type }) {
+export default function Button({ text, onClick, type, disabled }) {
     return (
-        // <div>
-        //     <button className='button' onClick={onClick} type='submit'>{text || "Opération"}</button>
-        // </div>
+        
 
         <div>
-            <button className='button' type={type} >{text || "Opération"}</button>
+            <button className='button' type={type}   onClick= {onClick} disabled= {disabled} >{text || "Opération"}</button>
         </div>
     )
 }
